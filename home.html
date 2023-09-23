@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my work</title>
+	<style>
+		#main{
+	background-color:lightgrey;
+	height: 750px;
+	width: 1300px;
+	margin: 0 auto;
+
+}
+#main>h1{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+}
+.nav{
+	width:900px;
+	background-color: #FF55BB;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.nav a{
+	font-size: 20px;
+	text-decoration: none;
+	padding: 15px 30px; 
+}
+#child{
+	display: flex;
+    margin-left: 180px;
+	margin-top: 8px;
+}
+.body-left{
+	width: 680px;
+	height: 480px;
+	background-color: white;
+}
+.body-left h1{
+	text-align: center;
+}
+.body-right{
+	width: 254px;
+	height: 480px;
+	background-color: #FF55BB;
+	margin-left: 8px; 
+	text-align: center;
+
+}
+.body-right li{
+     text-align: justify;
+     text-decoration: underline;
+     color: #9336B4;
+     font-family: impact;
+     font-weight: smaller;
+
+
+}
+.footer{
+    width:925px;
+	background-color: white;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 8px;
+}*/
+#tv_container {
+    width: 360px; 
+    height: 800px; 
+    position: relative;
+}
+#tv_container:after {
+    content: '';
+    display: block;
+  background: url('http://mediacentral.ie/snapchat/wp-content/uploads/2016/02/Cell.jpg') no-repeat top left transparent;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+#tv_container video {
+    position: absolute;
+    top: 30px; 
+    left: 40px; 
+    z-index: 5;
+}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<h1>header</h1>
+		<div class="nav">
+		<nav>
+			<a href="">HOME</a>
+			<a href="">OUR TEAM</a>
+			<a href="">PROJECT</a>
+			<a href="">CONTACT</a>
+			<input type="text" name="" placeholder="search bar">
+            <a href="" style="background-color: black; color: white; padding: 3px 20px; margin-left: 5px;">Go!</a>
+		</nav>
+	   </div>
+	   <div id="child">
+	   <div class="body-left">
+	   	 <h1>Article heading</h1>
+	   	 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id neque mattis, mattis dolor ac, mollis mi. Aenean quis tincidunt turpis, in varius orci. Ut id nunc sed velit hendrerit sollicitudin. Mauris nulla lectus, posuere gravida ligula a, dictum convallis nulla. Vivamus gravida, purus sit amet hendrerit hendrerit, nulla augue dignissim diam, non placerat arcu turpis et elit. Nunc sed diam eu nisi auctor bibendum sed eget ex. Proin in cursus erat.</p>
+	   	 <h2>Subsection </h2>
+	   	 <p>Maecenas id neque mattis, mattis dolor ac, mollis mi. Aenean quis tincidunt turpis, in varius orci. Ut id nunc sed velit hendrerit sollicitudin. Mauris nulla lectus, posuere gravida ligula a, dictum convallis nulla. Vivamus gravida, purus sit amet hendrerit hendrerit, nulla augue dignissim diam, non placerat arcu turpis et elit. Nunc sed diam eu nisi auctor bibendum sed eget ex. Proin in cursus erat.</p>
+	   	 <h2>Another Subsection</h2>
+	   	 <p>Maecenas id neque mattis, mattis dolor ac, mollis mi. Aenean quis tincidunt turpis, in varius orci. Ut id nunc sed velit hendrerit sollicitudin. Mauris nulla lectus, posuere gravida ligula a, dictum convallis nulla. Vivamus gravida, purus sit amet hendrerit hendrerit, nulla augue dignissim diam, non placerat arcu turpis et elit. Nunc sed diam eu nisi auctor bibendum sed eget ex. Proin in cursus erat.</p>
+
+	   	
+	   </div>
+	   <div class="body-right">
+	   	<h2>Related</h2>
+	   	<ul>
+	   		<li>Oh I do like to be beside the seaside</li><br>
+	   		<li>Oh I do like to be beside the sea</li><br>
+	   		<li>Although in the North of England</li><br>
+	   		<li>It never stop raining</li><br>
+	   		<li>Oh Well...</li>
+	   	</ul>
+	   </div>
+	</div>
+	<div class="footer">
+		<p>@copyright 2050 by noboby. All right reversed</p>
+	</div>
+	</div>
+
+</body>
+</html>
